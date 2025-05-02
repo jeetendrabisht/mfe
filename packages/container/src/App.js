@@ -6,10 +6,12 @@ import Header from "./components/Header";
 export default () => {
     return (
         <BrowserRouter>
-            <div>
-                <Header />
-                <MarketingApp />
-            </div>
+            <React.Fragment>
+                <div>
+                    <Header />
+                    <MarketingApp />
+                </div>
+            </React.Fragment>
         </BrowserRouter>
     )
 }
